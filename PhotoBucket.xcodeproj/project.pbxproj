@@ -3,29 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0A2C0861246A2EE7001A3C72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2C0860246A2EE7001A3C72 /* AppDelegate.swift */; };
 		0A2C0863246A2EE7001A3C72 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2C0862246A2EE7001A3C72 /* SceneDelegate.swift */; };
-		0A2C0865246A2EE7001A3C72 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2C0864246A2EE7001A3C72 /* MasterViewController.swift */; };
-		0A2C0867246A2EE7001A3C72 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2C0866246A2EE7001A3C72 /* DetailViewController.swift */; };
 		0A2C086A246A2EE7001A3C72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A2C0868246A2EE7001A3C72 /* Main.storyboard */; };
 		0A2C086C246A2EE9001A3C72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A2C086B246A2EE9001A3C72 /* Assets.xcassets */; };
 		0A2C086F246A2EE9001A3C72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A2C086D246A2EE9001A3C72 /* LaunchScreen.storyboard */; };
+		0A2C0877246A2F99001A3C72 /* PhotoBucketTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2C0876246A2F99001A3C72 /* PhotoBucketTableViewController.swift */; };
+		0A2C0879246A30B2001A3C72 /* PhotoBucket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2C0878246A30B2001A3C72 /* PhotoBucket.swift */; };
+		0A2C087B246A48EB001A3C72 /* PhotoBucketDetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2C087A246A48EB001A3C72 /* PhotoBucketDetailedViewController.swift */; };
+		0A2C087D246A5042001A3C72 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A2C087C246A5042001A3C72 /* GoogleService-Info.plist */; };
+		0A2C0881246FC7FD001A3C72 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2C0880246FC7FD001A3C72 /* LoginViewController.swift */; };
+		68A3DFCF9F661C39490FF5E0 /* Pods_PhotoBucket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5AA2BC81A84883D6E8DE8D5 /* Pods_PhotoBucket.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		065CAC1D31F0DA15390B4F48 /* Pods-PhotoBucket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoBucket.release.xcconfig"; path = "Target Support Files/Pods-PhotoBucket/Pods-PhotoBucket.release.xcconfig"; sourceTree = "<group>"; };
 		0A2C085D246A2EE7001A3C72 /* PhotoBucket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoBucket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A2C0860246A2EE7001A3C72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A2C0862246A2EE7001A3C72 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0A2C0864246A2EE7001A3C72 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		0A2C0866246A2EE7001A3C72 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		0A2C0869246A2EE7001A3C72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A2C086B246A2EE9001A3C72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A2C086E246A2EE9001A3C72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A2C0870246A2EE9001A3C72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A2C0876246A2F99001A3C72 /* PhotoBucketTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoBucketTableViewController.swift; sourceTree = "<group>"; };
+		0A2C0878246A30B2001A3C72 /* PhotoBucket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoBucket.swift; sourceTree = "<group>"; };
+		0A2C087A246A48EB001A3C72 /* PhotoBucketDetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoBucketDetailedViewController.swift; sourceTree = "<group>"; };
+		0A2C087C246A5042001A3C72 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0A2C0880246FC7FD001A3C72 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		544B1F6F15CC2201EB2FBD4D /* Pods-PhotoBucket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoBucket.debug.xcconfig"; path = "Target Support Files/Pods-PhotoBucket/Pods-PhotoBucket.debug.xcconfig"; sourceTree = "<group>"; };
+		A5AA2BC81A84883D6E8DE8D5 /* Pods_PhotoBucket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoBucket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68A3DFCF9F661C39490FF5E0 /* Pods_PhotoBucket.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +55,8 @@
 			children = (
 				0A2C085F246A2EE7001A3C72 /* PhotoBucket */,
 				0A2C085E246A2EE7001A3C72 /* Products */,
+				809CCEFD07E12D7FB23F2569 /* Pods */,
+				3F28F90DDE2AA59F6421E25E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +71,36 @@
 		0A2C085F246A2EE7001A3C72 /* PhotoBucket */ = {
 			isa = PBXGroup;
 			children = (
+				0A2C087C246A5042001A3C72 /* GoogleService-Info.plist */,
 				0A2C0860246A2EE7001A3C72 /* AppDelegate.swift */,
 				0A2C0862246A2EE7001A3C72 /* SceneDelegate.swift */,
-				0A2C0864246A2EE7001A3C72 /* MasterViewController.swift */,
-				0A2C0866246A2EE7001A3C72 /* DetailViewController.swift */,
 				0A2C0868246A2EE7001A3C72 /* Main.storyboard */,
 				0A2C086B246A2EE9001A3C72 /* Assets.xcassets */,
 				0A2C086D246A2EE9001A3C72 /* LaunchScreen.storyboard */,
 				0A2C0870246A2EE9001A3C72 /* Info.plist */,
+				0A2C0876246A2F99001A3C72 /* PhotoBucketTableViewController.swift */,
+				0A2C0878246A30B2001A3C72 /* PhotoBucket.swift */,
+				0A2C087A246A48EB001A3C72 /* PhotoBucketDetailedViewController.swift */,
+				0A2C0880246FC7FD001A3C72 /* LoginViewController.swift */,
 			);
 			path = PhotoBucket;
+			sourceTree = "<group>";
+		};
+		3F28F90DDE2AA59F6421E25E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5AA2BC81A84883D6E8DE8D5 /* Pods_PhotoBucket.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		809CCEFD07E12D7FB23F2569 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				544B1F6F15CC2201EB2FBD4D /* Pods-PhotoBucket.debug.xcconfig */,
+				065CAC1D31F0DA15390B4F48 /* Pods-PhotoBucket.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A2C0873246A2EE9001A3C72 /* Build configuration list for PBXNativeTarget "PhotoBucket" */;
 			buildPhases = (
+				0C8339ED15B24FB82CCF3AA3 /* [CP] Check Pods Manifest.lock */,
 				0A2C0859246A2EE7001A3C72 /* Sources */,
 				0A2C085A246A2EE7001A3C72 /* Frameworks */,
 				0A2C085B246A2EE7001A3C72 /* Resources */,
+				AADC26E157E2E666A77F7158 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A2C086F246A2EE9001A3C72 /* LaunchScreen.storyboard in Resources */,
+				0A2C087D246A5042001A3C72 /* GoogleService-Info.plist in Resources */,
 				0A2C086C246A2EE9001A3C72 /* Assets.xcassets in Resources */,
 				0A2C086A246A2EE7001A3C72 /* Main.storyboard in Resources */,
 			);
@@ -136,15 +172,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C8339ED15B24FB82CCF3AA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhotoBucket-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AADC26E157E2E666A77F7158 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhotoBucket/Pods-PhotoBucket-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhotoBucket/Pods-PhotoBucket-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PhotoBucket/Pods-PhotoBucket-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0A2C0859246A2EE7001A3C72 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A2C0881246FC7FD001A3C72 /* LoginViewController.swift in Sources */,
+				0A2C0879246A30B2001A3C72 /* PhotoBucket.swift in Sources */,
+				0A2C0877246A2F99001A3C72 /* PhotoBucketTableViewController.swift in Sources */,
+				0A2C087B246A48EB001A3C72 /* PhotoBucketDetailedViewController.swift in Sources */,
 				0A2C0861246A2EE7001A3C72 /* AppDelegate.swift in Sources */,
 				0A2C0863246A2EE7001A3C72 /* SceneDelegate.swift in Sources */,
-				0A2C0865246A2EE7001A3C72 /* MasterViewController.swift in Sources */,
-				0A2C0867246A2EE7001A3C72 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +366,7 @@
 		};
 		0A2C0874246A2EE9001A3C72 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 544B1F6F15CC2201EB2FBD4D /* Pods-PhotoBucket.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -303,6 +384,7 @@
 		};
 		0A2C0875246A2EE9001A3C72 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 065CAC1D31F0DA15390B4F48 /* Pods-PhotoBucket.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
